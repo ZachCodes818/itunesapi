@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="itunes.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>itunes project</title>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/amplitudejs@4.1.0/dist/amplitude.js"></script>
+</head>
+
+<body>
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper black">
+                <form>
+                    <div class="input-field">
+                        <input id="search" type="search" required>
+                        <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+                        <i class="material-icons">close</i>
+                    </div>
+                </form>
+            </div>
+        </nav>
+    </div>
+    <div class="slider fullscreen">
+        <ul id="songs" class="slides">
+
+            <li>
+                <img src="http://inn.spb.ru/images/400/DSC100491547.jpg"> <!-- random image -->
+                <div class="caption center-align">
+                    <h3>Welcome!!</h3>
+                    <h5 class="light grey-text text-lighten-3">Search your favorite artists and listen now!</h5>
+                </div>
+            </li>
+            <li>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg_daHV26d9WxH7tCMOeiZCQKd3GPllA0vJ-nIBezv89_-FYJg"> <!-- random image -->
+                <div class="caption center-align">
+                    <h3>Shop all of iTunes!</h3>
+                    <h5 class="light grey-text text-lighten-3">Download the best quality sounds</h5>
+                </div>
+            </li>
+            <li>
+                <img src="https://static.boredpanda.com/blog/wp-content/uploads/2015/04/painted-music-melissa-mccracken-fb.jpg"> <!-- random image -->
+                <div class="caption center-align">
+                    <h3>Creativity was made here!</h3>
+                    <h5 class="light grey-text text-lighten-3">Shop Today</h5>
+                </div>
+            </li>
+            <li>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQabqOGmSLZkGY6qmzrBm9aOVapvsnJm8ilQfA__kUnpFjynyXpNw"> <!-- random image -->
+                <div class="caption center-align">
+                    <h3>Listen Now!</h3>
+                    <h5 class="light grey-text text-lighten-3">Get in Tune!</h5>
+                </div>
+            </li>
+
+        </ul>
+    </div>
+    <ul>
+    </ul>
+    <div class="container">
+        <h1></h1>
+        <ul id= "songList"class="collection">
+
+        </ul>
+        <a id="toggleSongs" class="btn-floating btn-large waves-effect waves-light black"><i
+                class="material-icons">arrow_back</i></a>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script src="itunes.js"> </script>
+
+
+
+</body>
+
+</html>

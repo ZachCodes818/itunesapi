@@ -1,0 +1,9 @@
+.amplitude-paused{
+    background-image: url(https://images-na.ssl-images-amazon.com/images/I/31lNc4JUW1L.png);
+    background-size: cover; 
+}
+
+.amplitude-playing{
+    background-image: url(http://www.clker.com/cliparts/4/V/c/P/9/Z/pause-button-orange-md.png);
+    background-size: cover; 
+}
